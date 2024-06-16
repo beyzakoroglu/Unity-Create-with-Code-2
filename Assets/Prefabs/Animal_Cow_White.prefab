@@ -846,6 +846,8 @@ GameObject:
   - component: {fileID: 1999878581964612736}
   - component: {fileID: 3121932536609684529}
   - component: {fileID: 1219386516389320143}
+  - component: {fileID: 5482269934727501319}
+  - component: {fileID: 4804059669798744346}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -917,6 +919,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   topBound: 30
   lowerBound: -10
+--- !u!65 &5482269934727501319
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4073493889726936093}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 0}
+  m_Center: {x: 0, y: 0, z: -0.5}
+--- !u!114 &4804059669798744346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4073493889726936093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a71a5c2d9136564a8af7532d89893e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4267509362047813003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,6 +1283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7029234589665218356}
   - component: {fileID: 217584937315123081}
+  - component: {fileID: 8029191889175703751}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -1367,6 +1403,27 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!65 &8029191889175703751
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5757144884563859496}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 15.977371, y: 32.57899, z: 48.408817}
+  m_Center: {x: -0.6109343, y: 16.289469, z: 0.2914349}
 --- !u!1 &5922360954157034858
 GameObject:
   m_ObjectHideFlags: 0
