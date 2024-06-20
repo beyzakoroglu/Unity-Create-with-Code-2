@@ -13,11 +13,10 @@ GameObject:
   - component: {fileID: 1283329407849819481}
   - component: {fileID: 6243346053100537862}
   - component: {fileID: 8298871306496373218}
-  - component: {fileID: 1450241357170197870}
   - component: {fileID: 840689718416613550}
   m_Layer: 0
   m_Name: Animal_Moose_01
-  m_TagString: Untagged
+  m_TagString: Moose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,18 +115,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18961942, y: 0.46323562, z: 0.4450729}
   m_Center: {x: -0.0017309244, y: 0.23102964, z: 0.059261672}
---- !u!114 &1450241357170197870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640808685593495803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a71a5c2d9136564a8af7532d89893e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &840689718416613550
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -930,7 +917,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3341526940329655073}
   - component: {fileID: 8262018501849727642}
-  - component: {fileID: 9194096188113401637}
   m_Layer: 0
   m_Name: SM_Moose_Male_01
   m_TagString: Untagged
@@ -1006,24 +992,3 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000014901161, y: 0.045301065, z: 0.16266179}
     m_Extent: {x: 0.10332231, y: 0.2796877, z: 0.26338276}
   m_DirtyAABB: 0
---- !u!65 &9194096188113401637
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9117594719834945309}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2066446, y: 0.55937535, z: 0.52676547}
-  m_Center: {x: 0.000000014901159, y: 0.045301042, z: 0.16266188}

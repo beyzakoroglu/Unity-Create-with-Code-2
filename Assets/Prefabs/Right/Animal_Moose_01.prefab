@@ -523,11 +523,10 @@ GameObject:
   - component: {fileID: 9124356800001327951}
   - component: {fileID: 3519697089104386897}
   - component: {fileID: 5081493249805598996}
-  - component: {fileID: 6976352904053564121}
   - component: {fileID: 8048505666730907713}
   m_Layer: 0
   m_Name: Animal_Moose_01
-  m_TagString: Untagged
+  m_TagString: Moose
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,18 +625,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.18961942, y: 0.46323562, z: 0.4450729}
   m_Center: {x: -0.0017309244, y: 0.23102964, z: 0.059261672}
---- !u!114 &6976352904053564121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5272375990478217028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a71a5c2d9136564a8af7532d89893e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!54 &8048505666730907713
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -675,7 +662,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8834652329086307995}
   - component: {fileID: 6539810054945432826}
-  - component: {fileID: 6507849254688471853}
   m_Layer: 0
   m_Name: SM_Moose_Male_01
   m_TagString: Untagged
@@ -751,27 +737,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.000000014901161, y: 0.045301065, z: 0.16266179}
     m_Extent: {x: 0.10332231, y: 0.2796877, z: 0.26338276}
   m_DirtyAABB: 0
---- !u!65 &6507849254688471853
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5401419664889916980}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.2066446, y: 0.55937535, z: 0.52676547}
-  m_Center: {x: 0.000000014901159, y: 0.045301042, z: 0.16266188}
 --- !u!1 &6022321016151033813
 GameObject:
   m_ObjectHideFlags: 0
